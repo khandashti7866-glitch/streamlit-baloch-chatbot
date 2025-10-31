@@ -1,0 +1,5 @@
+streamlit>=1.20.0
+transformers>=4.30.0    # optional but provides richer local responses (auto-downloads distilgpt2)
+torch>=1.13.0           # optional but typically required by transformers (CPU build ok)
+# The following are optional backends; the app will work without them using the rule-based fallback:
+# openai                  # uncomment if you want to use the OpenAI SDK and provide OPENAI_API_KEY
